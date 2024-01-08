@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Ubuntu', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: rgb(255, 255, 255);
+}
+
+nav {
+  border-bottom: 2px solid rgb(218, 220, 224);
+  display: flex;
+  align-items: center;
+  height: 80px;
+  padding: 0 40px;
+}
+
+img {
+  width: 75px;
+}
+
+.title {
+  font-size: 40px;
+}
+
+.content {
+  flex-grow: 1;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.left {
+  flex: 0.14;
+  border-right: 2px solid rgb(218, 220, 224);
+}
+
+input {
+  margin-top: 10px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  margin: 30px;
+  border: 2px solid rgb(218, 220, 224);
+  padding: 8px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.head1 {
+  text-align: center;
+  font-size: 32px;
+  text-decoration: underline;
+}
+
+.login {
+  background-color: rgb(231, 239, 255);
+  border: 2px solid rgb(218, 220, 224);
+  width: 300px;
+  height: 350px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.register {
+  margin: 20px;
+  background-color: rgb(231, 239, 255);
+  border: 2px solid rgb(218, 220, 224);
+  width: 300px;
+  height: 650px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.sec {
+  margin-top: 30px;
+}
+
+.right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input[type="submit"] {
+  cursor: pointer;
+  margin-top: 28px;
+  background-color: rgb(255, 255, 255);
+  border: 2px solid rgb(218, 220, 224);
+  padding: 10px 24px;
+  border-radius: 8px;
+}
+
+p {
+  margin-top: 20px;
+  font-size: 12px;
+}
+
+footer {
+  height: 30px;
+  border-top: 2px solid rgb(218, 220, 224);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+}
