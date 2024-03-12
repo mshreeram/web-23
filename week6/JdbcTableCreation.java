@@ -8,7 +8,7 @@ class JdbcTableCreation {
     System.out.println("Connection Established...");
 
     Statement st = con.createStatement();
-    String query = "CREATE TABLE students_23 (rollno number(10), name varchar2(20), email varchar2(100))";
+    String query = "CREATE TABLE students_23 (rollno int, name varchar(255), email varchar(255));";
     int n = st.executeUpdate(query);
     System.out.println("Value of n is: " + n);
     if (n >= 0)
